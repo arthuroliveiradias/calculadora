@@ -1,0 +1,106 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: arthur;
+    src: url(/fonte/bulletproof/Bulletproof.ttf);
+
+}
+@font-face {
+    font-family: dias;
+    src: url(/fonte/bulletproof/Bulletproof\ Italic.ttf)
+}
+
+h1{
+    font-family:dias;
+    background-color: rgba(83, 79, 79, 0.151);
+    color: rgb(255, 255, 255);
+}
+
+body{
+    background: cyan;
+    text-align: center;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;  
+    align-items: center; 
+    justify-content: center;
+    height: 100vh;
+    background-image: url(https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2023/12/406986190_905501194262841_8537253958854523705_n-e1701557701468.jpg?w=1079);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#calculator{
+    max-width: 360px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 13px;
+    padding: 18px;
+    box-shadow: 200px;
+    border-radius: 10px;
+
+}
+#display{
+    width: 100%;
+    height: 60px;
+    font-size: 22px;
+    text-align: right;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 3px;
+    color: rgb(255, 255, 255);
+    background: rgb(196, 4, 4);
+    border: none;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+}
+button{
+    width: calc(25% -12px);
+    height: 40px;
+    font-size: 22px;
+    margin: 10px 10px;
+    border: none;
+    float: center;
+    background-color: rgb(228, 0, 0);
+    color: rgb(85, 21, 21);
+    box-shadow: 7px 3px 5px;
+    width: 45px;
+    border-radius: 10px;
+
+}
+.operator{
+    color: black;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+
+}
+#ac{
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+
+}
+.equal{
+    width: calc(50% -12px);
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+
+}
+button:hover {
+    cursor: pointer;
+    transform: translateY(10px)
+
+}
+button:active{
+    transform: 20px;
+    box-shadow: 3px 5px 2px;
+
+}
+footer{
+    background-color: black;
+    background-size: cover;
+    color: aliceblue;
+    margin: 20px;
+    border-radius: 20px;
+    font-family: arthur;
+
+}
